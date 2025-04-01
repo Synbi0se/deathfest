@@ -29,7 +29,7 @@ p{
 #home{
     padding-top: 100px;
     img{
-        width: fit-content;
+        width: 100%;
     }
     .bocs{
         text-align: center;
@@ -52,11 +52,6 @@ p{
 #lineup{
     text-align: center;
     font-weight: bold;
-    /* margin: 10%; */
-    .a{
-        text-align: center;
-        margin : 10px;
-    }
     p{
         padding-top: 10px;
     }
@@ -86,7 +81,7 @@ p{
         text-align: right;
     }
     img{
-        width: 80%;
+        width: 100%;
     }
     .tt{
         text-align: left;
