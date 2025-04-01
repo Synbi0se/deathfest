@@ -1,0 +1,111 @@
+@font-face{
+    font-family: "dark";
+    src: url("font/dark.ttf") format("opentype");
+}
+@font-face{
+    font-family: "attack";
+    src: url("font/attack.otf") format("opentype");
+}
+img{
+    border-radius: 2px;
+}
+.title{
+    font-family: dark;
+    font-size:100px;
+}
+.second{
+    font-family: dark;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 70px;
+}
+#wrap{
+    background-color: #212121;
+    color: aliceblue;
+    font-family: attack;
+}
+#home{
+    display: flex;
+    #block{
+        width: 50%;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #text{
+            text-align: left;
+            margin: 20px;
+            margin-top: 250px;
+    }
+    #box{
+        padding: 10px;
+        font-size: 40px;
+        text-align: center;
+        background-color: #EEE;
+        color: #4b4b4b;
+        font-family: dark;
+        cursor: pointer;
+    }
+}
+
+#lineup{
+    text-align: center;
+    font-weight: bold;
+    margin: 100px;
+    .a{
+        text-align: center;
+        margin : 10px;
+    }
+    p{
+        padding-top: 10px;
+    }
+    #box{
+        width: 45%;
+        height: 110px;
+        margin: 50px 27.5%;
+        background-color: #EEE;
+        color: #4b4b4b;
+        font-family: dark;
+        font-size: 50px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+#lineup img{
+    width: 300px;
+}
+
+#event{
+    margin: 100px 0px;
+    img{
+        width: 90%;
+        margin: 5%;
+    }
+}
+
+#location{
+    padding-bottom: 100px;
+    .img{
+        text-align: right;
+    }
+    img{
+        width: 80%;
+    }
+    .tt{
+        text-align: left;
+        font-weight: bold;
+    }
+}
+
+footer{
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+    color: gainsboro;
+    .lnk{
+        color: gainsboro;
+        font-weight: bold;
+        font-style: italic;
+    }
+}
